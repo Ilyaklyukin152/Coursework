@@ -29,6 +29,8 @@ public class Main {
         System.out.println();
         printAllEmployees(employees);
         System.out.println();
+        indexSalaryDepartment(employees,3,15);
+        System.out.println();
         System.out.println(findEmployeeMinSalaryDepartment(employees, 3));
         System.out.println();
         System.out.println(findEmployeeMaxSalaryDepartment(employees, 5));
